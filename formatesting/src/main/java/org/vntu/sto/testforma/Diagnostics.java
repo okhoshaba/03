@@ -16,7 +16,8 @@ class Diagnostics implements IBaseService {
   }
 
   public String getServiceName() {
-    return " ServiceName: " + serviceName;
+    return serviceName;
+//    return " ServiceName: " + serviceName;
   }
 
   public void setServiceName(String serviceName) {
