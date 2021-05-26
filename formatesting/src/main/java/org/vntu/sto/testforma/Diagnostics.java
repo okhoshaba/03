@@ -8,7 +8,7 @@ class Diagnostics implements IBaseService {
   private String time;
 
   public String getID() {
-    return " ID: " + id;
+    return id;
   }
 
   public void setID(String id) {
@@ -17,7 +17,6 @@ class Diagnostics implements IBaseService {
 
   public String getServiceName() {
     return serviceName;
-//    return " ServiceName: " + serviceName;
   }
 
   public void setServiceName(String serviceName) {
@@ -25,7 +24,7 @@ class Diagnostics implements IBaseService {
   }
 
   public String getServiceCost() {
-    return " ServiceCost: " + serviceCost;
+    return serviceCost;
   }
 
   public void setServiceCost(String serviceCost) {
@@ -33,7 +32,7 @@ class Diagnostics implements IBaseService {
   }
 
   public String getDate() {
-    return " Date: " + date;
+    return date;
   }
 
   public void setDate(String date) {
@@ -41,7 +40,7 @@ class Diagnostics implements IBaseService {
   }
 
   public String getTime() {
-    return " Time: " + time;
+    return time;
   }
 
   public void setTime(String time) {
