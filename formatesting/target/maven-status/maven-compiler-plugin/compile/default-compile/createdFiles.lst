@@ -1,3 +1,5 @@
-org/vntu/sto/testforma/IService.class
+org/vntu/sto/testforma/Parking.class
 org/vntu/sto/testforma/Diagnostics.class
+org/vntu/sto/testforma/IService.class
+org/vntu/sto/testforma/IBaseService.class
 org/vntu/sto/testforma/TestApp.class

@@ -1,21 +1,33 @@
 package org.vntu.sto.testforma;
 
-//import java.util.regex.Matcher;
-//import java.util.regex.Pattern;
-
-//import static javax.swing.JOptionPane.*;
-
-class Diagnostics implements IService {
+class Diagnostics implements IBaseService {
   private String id;
+  private String date;
+  private String time;
 
   public String getID() {
-//    System.out.println("Output ID");
-    return id;
+    return " ID: " + id;
   }
 
   public void setID(String id) {
-//    System.out.println("Setting ID: " + id);
     this.id = id;
   }
+
+  public String getDate() {
+    return " Date: " + date;
+  }
+
+  public void setDate(String date) {
+    this.date = date;
+  }
+
+  public String getTime() {
+    return " Time: " + time;
+  }
+
+  public void setTime(String time) {
+    this.time = time;
+  }
+
 }
 
