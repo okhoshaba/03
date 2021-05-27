@@ -7,7 +7,7 @@ class TestApp {
 
 final static String idCorrect = "1112222333";
 final static String idNotCorrect = "ID....";
-final static String dateCorrect = "11/12/33";
+final static String dateCorrect = "11/12/2021";
 final static String dateNotCorrect = "Date....";
 final static String timeCorrect = "11:22";
 final static String timeNotCorrect = "Time....";
@@ -73,15 +73,31 @@ public static boolean isValidDateService(final String date) {
 
     diagnostics.setDate(dateCorrect);
     System.out.println("Тестування ==> " + diagnostics.getServiceName() + " ==> " + diagnostics.getDate());
+    if (isValidDateService(diagnostics.getDate())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     diagnostics.setDate(dateNotCorrect);
     System.out.println("Тестування ==> " + diagnostics.getServiceName() + " ==> " + diagnostics.getDate());
+    if (isValidDateService(diagnostics.getDate())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     diagnostics.setTime(timeCorrect);
     System.out.println("Тестування ==> " + diagnostics.getServiceName() + " ==> " + diagnostics.getTime());
+    if (isValidTimeService(diagnostics.getTime())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     diagnostics.setTime(timeNotCorrect);
     System.out.println("Тестування ==> " + diagnostics.getServiceName() + " ==> " + diagnostics.getTime());
+    if (isValidTimeService(diagnostics.getTime())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     parking.setServiceName("Паркування");
     parking.setID(idCorrect);
@@ -102,15 +118,33 @@ public static boolean isValidDateService(final String date) {
 
     parking.setDate(dateCorrect);
     System.out.println("Тестування ==> " + parking.getServiceName() + " ==> " + parking.getDate());
+    if (isValidDateService(parking.getDate())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     parking.setDate(dateNotCorrect);
     System.out.println("Тестування ==> " + parking.getServiceName() + " ==> " + parking.getDate());
+    if (isValidDateService(parking.getDate())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
+
 
     parking.setTime(timeCorrect);
     System.out.println("Тестування ==> " + parking.getServiceName() + " ==> " + parking.getTime());
+    if (isValidTimeService(parking.getTime())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
 
     parking.setTime(timeNotCorrect);
     System.out.println("Тестування ==> " + parking.getServiceName() + " ==> " + parking.getTime());
+    if (isValidTimeService(parking.getTime())) 
+      System.out.println("Тестування пройдено +++ ");
+    else
+      System.out.println("Тестування НЕ пройдено !!!");
+
 
     parking.setPeriodTime(periodTimeCorrect);
     System.out.println("Тестування ==> " + parking.getServiceName() + " ==> " + parking.getPeriodTime());

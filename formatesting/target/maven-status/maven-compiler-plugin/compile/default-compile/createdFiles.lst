@@ -1,7 +1,7 @@
 org/vntu/sto/testforma/Parking.class
 org/vntu/sto/testforma/Straightening.class
-org/vntu/sto/testforma/Painting.class
 org/vntu/sto/testforma/Diagnostics.class
+org/vntu/sto/testforma/Painting.class
 org/vntu/sto/testforma/IBaseService.class
 org/vntu/sto/testforma/Repairs.class
 org/vntu/sto/testforma/Shop.class
