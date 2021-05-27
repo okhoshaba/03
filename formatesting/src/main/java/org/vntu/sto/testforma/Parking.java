@@ -4,7 +4,7 @@ class Parking extends Diagnostics {
   private String periodTime;
 
   public String getPeriodTime() {
-    return " PeriodTime: " + periodTime;
+    return periodTime;
   }
 
   public void setPeriodTime(String periodTime) {
