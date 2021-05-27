@@ -1,0 +1,10 @@
+org/vntu/sto/forma/Painting.class
+org/vntu/sto/forma/IBaseService.class
+org/vntu/sto/forma/IService.class
+org/vntu/sto/forma/Shop.class
+org/vntu/sto/forma/Application.class
+org/vntu/sto/forma/Straightening.class
+org/vntu/sto/forma/Diagnostics.class
+org/vntu/sto/forma/IExtendedService.class
+org/vntu/sto/forma/Repairs.class
+org/vntu/sto/forma/Parking.class
